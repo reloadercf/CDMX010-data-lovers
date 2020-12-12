@@ -13,6 +13,12 @@
 * [9. Checklist](#9-checklist)
 
 ***
+###Dev
+La implementación del proyecto comienza con el diseño  de sketch
+![sketch](https://user-images.githubusercontent.com/6140157/101977327-7f6f2380-3c12-11eb-8165-2e2e633a4924.png)
+Posteriormente avanzamos con el diseño UI
+![ui](https://user-images.githubusercontent.com/6140157/101977038-55b4fd00-3c10-11eb-94df-c676c4cb7066.png)
+****
 
 ## 1. Preámbulo
 
