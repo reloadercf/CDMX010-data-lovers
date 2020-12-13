@@ -3,6 +3,9 @@
 
 body{
     background-color: #FAFAFA;
+    margin: 0;
+	padding: 0;
+    line-height: 1.5em;
 }
 
 h1{
@@ -17,8 +20,10 @@ nav{
     width: 100%;
     border-bottom: 5px solid red;
     background-color: #ffffff;
+    position:fixed;
+    overflow: hidden;
+    
 }
-
 .nav-firts{
     display: flex;
     width: 50%;
@@ -38,16 +43,18 @@ nav{
 }
 
 content{
+    padding-top: 10%;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .character{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .character img{
