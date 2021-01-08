@@ -16,7 +16,11 @@ let setHtml=(dataRyM)=>{
         <div class="name-character">${name}</div>
       </div>
     `
-    console.log(id)
+    console.log(charter)
   })
   content.innerHTML=html
 }
+
+//data no toca el dom
+//Exporta funciones
+// ailar la funcion
