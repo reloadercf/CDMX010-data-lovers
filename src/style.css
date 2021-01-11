@@ -18,7 +18,7 @@ h1{
 nav{
     display: flex;
     width: 100%;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid rgb(9, 255, 0);
     background-color: #ffffff;
     position:fixed;
     overflow: hidden;
