@@ -1,9 +1,26 @@
-// estas funciones son de ejemplo
+export const getDataRyM=()=>{
+  const url='data/rickandmorty.json'
+  fetch(url)
+    .then(result=>result.json())
+    .then(resp=>setHtml(resp.results))
+}
 
-export const example = () => {
-  return 'example';
-};
+let setHtml=(dataRyM)=>{
+  let content=document.querySelector(".content")
+  let html=''
+  dataRyM.forEach(charter=>{
+    let {image,name,id}=charter
+    html+=`
+    <div class="character">
+        <img src="${image}">
+        <div class="name-character">${name}</div>
+      </div>
+    `
+    console.log(charter)
+  })
+  content.innerHTML=html
+}
 
-export const anotherExample = () => {
-  return 'OMG';
-};
+//data no toca el dom
+//Exporta funciones
+// ailar la funcion

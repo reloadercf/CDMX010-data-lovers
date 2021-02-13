@@ -1,6 +1,5 @@
-import { example } from './data.js';
-// import data from './data/lol/lol.js';
-import data from './data/pokemon/pokemon.js';
-// import data from './data/rickandmorty/rickandmorty.js';
+import { getDataRyM } from './data.js';
+document.addEventListener('DOMContentLoaded',getDataRyM())
+//importa las funciones de data
 
-console.log(example, data);
+//manipula el dom
